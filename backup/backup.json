@@ -1,0 +1,70 @@
+{
+  "name": "altraid",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@supabase/supabase-js": "^2.39.7",
+    "react-router-dom": "^6.22.2",
+    "qrcode.react": "^3.1.0",
+    "react-hot-toast": "^2.4.1",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2"
+  },
+  "files": {
+    "src": {
+      "App.tsx": "FILE_CONTENT",
+      "main.tsx": "FILE_CONTENT",
+      "index.css": "FILE_CONTENT",
+      "vite-env.d.ts": "FILE_CONTENT",
+      "lib/supabase.ts": "FILE_CONTENT",
+      "components/Layout.tsx": "FILE_CONTENT",
+      "pages/Auth.tsx": "FILE_CONTENT",
+      "pages/BasicDetails.tsx": "FILE_CONTENT",
+      "pages/GenerateProfile.tsx": "FILE_CONTENT",
+      "pages/GenerateQR.tsx": "FILE_CONTENT",
+      "pages/PublicProfile.tsx": "FILE_CONTENT",
+      "pages/SearchProfile.tsx": "FILE_CONTENT",
+      "pages/Social.tsx": "FILE_CONTENT"
+    },
+    "public": {
+      "_redirects": "/* /index.html 200"
+    },
+    "config": {
+      "eslint.config.js": "FILE_CONTENT",
+      "postcss.config.js": "FILE_CONTENT",
+      "tailwind.config.js": "FILE_CONTENT",
+      "tsconfig.app.json": "FILE_CONTENT",
+      "tsconfig.json": "FILE_CONTENT",
+      "tsconfig.node.json": "FILE_CONTENT",
+      "vite.config.ts": "FILE_CONTENT"
+    },
+    "env": {
+      "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5sZnBweGxycnZmb2x3Y2VhZHZiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY0NTE3NDgsImV4cCI6MjA1MjAyNzc0OH0.GGp3VJV4m0SvOPCx-vi3jU-IWV7fQ56ER43t0RZh0dg",
+      "VITE_SUPABASE_URL": "https://nlfppxlrrvfolwceadvb.supabase.co"
+    }
+  }
+}
